@@ -68,7 +68,7 @@ Each gate produces a stated output before the next begins. Never skip or merge g
 Ask the user:
 
 1. **Skill name** — What should the generated skill be called? This becomes the folder name
-   and `.skill` filename. Use kebab-case, e.g. `zenlayer-design-system`, `acme-dashboard-tokens`.
+   and `.skill` filename. Must be strict kebab-case (letters, numbers, hyphens only), e.g. `zenlayer-design-system`.
 2. **Brand / product name** — The product or brand these tokens belong to. Used in the
    SKILL.md title and trigger description. (e.g. "Zenlayer", "Acme Dashboard")
 3. **Target output format** — Will future vibe coding sessions produce HTML, React JSX, or both?
@@ -236,14 +236,14 @@ Show summary:
 cd /mnt/skills/examples/skill-creator && python -c "
 import sys; sys.path.insert(0, '.')
 from scripts.package_skill import package_skill
-package_skill('/tmp/[skill-name]', '/home/claude/[skill-name].skill')
-"
+package_skill(f'/tmp/{sys.argv[1]}', f'/home/claude/{sys.argv[1]}.skill')
+" "[skill-name]"
 ```
 
 3. Copy to outputs and present to user:
 
 ```bash
-cp /home/claude/[skill-name].skill/[skill-name].skill /mnt/user-data/outputs/
+cp "/home/claude/[skill-name].skill/[skill-name].skill" /mnt/user-data/outputs/
 ```
 
 4. Tell the user:
