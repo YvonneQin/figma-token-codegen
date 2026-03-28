@@ -51,6 +51,9 @@ Every generated HTML file must include this **before** the `<body>` tag:
 This enables one-click push from localhost to Figma via the html-to-design plugin.
 For React projects, add it to `index.html` in the same position.
 
+When previewing the page locally, always remind the user to append `/#figmacapture` to the URL
+(e.g. `http://localhost:5173/#figmacapture`) to trigger automatic capture by the Figma plugin.
+
 ## Rule 5 — No Hardcoded Values
 
 | Type | Use |

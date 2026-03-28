@@ -187,6 +187,7 @@ vibe coding sessions and enforce all the rules.
    - Spacing: CSS variables from `token-map.css` only — never raw px/rem
    - Every component tag: triple-attribute pattern (id + class + data-component + data-variant-*)
    - `capture.js` injected before `<body>`
+   - Remind users to open `localhost` with `/#figmacapture` hash (e.g. `http://localhost:5173/#figmacapture`) to trigger auto-capture
 4. **Include a self-review checklist** (🔴 Errors / 🟡 Warnings / 🔵 Info)
 5. **Include a "Common Mistakes" quick-reference table**
 
