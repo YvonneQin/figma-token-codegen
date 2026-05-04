@@ -4,6 +4,10 @@ This skill generates a brand-specific coding skill from a user's Figma design to
 
 > 💡 This skill is structured following the [5 Agent Skill design patterns](https://x.com/GoogleCloudTech/article/2033953579824758855) outlined by GoogleCloudTech. It composes multiple patterns to create a robust, multi-step workflow.
 
+## Demo
+
+[![Watch the demo on YouTube](https://img.youtube.com/vi/CXk4PPG52dU/maxresdefault.jpg)](https://youtu.be/CXk4PPG52dU?si=BXpPS3k8IEJ_-it6)
+
 ## Why Not Claude Design?
 
 Claude Design is genuinely impressive. But if your team already has a design system, it creates a specific problem: it generates from scratch, not from your spec.
