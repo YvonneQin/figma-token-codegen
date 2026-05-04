@@ -6,7 +6,7 @@ This skill generates a brand-specific coding skill from a user's Figma design to
 
 ## Demo
 
-[![Watch the demo on YouTube](https://img.youtube.com/vi/CXk4PPG52dU/hqdefault.jpg)](https://youtu.be/CXk4PPG52dU?si=BXpPS3k8IEJ_-it6)
+https://youtu.be/CXk4PPG52dU?si=BXpPS3k8IEJ_-it6
 
 ## Why Not Claude Design?
 
